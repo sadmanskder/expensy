@@ -2,9 +2,7 @@ body {
     scrollbar-width: 0.1px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.w3-animate-opacity {
-    animation-duration: 1s;
-}
+
 
 nav {
     background-color: whitesmoke;
