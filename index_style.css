@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-image: url('bgimg2.png');
+}
+
+.welcome {
+    margin-top: 2%;
+    margin-right: 1.75%;
+    padding-right: 13%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    border: collapse 1px;
+    ;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: rgba(109, 59, 40, 0.959);
+}
+
+.heading,
+.name {
+    text-shadow: 2px;
+    font-size: 57px;
+    margin-left: 9%;
+    text-decoration: double;
+    color: whitesmoke;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.w3-animate-left {
+    animation-duration: 2s;
+}
+
+.w3-animate-zoom {
+    animation-duration: 2s;
+}
+
+.todomain {
+    overflow-x: hidden;
+    margin-top: 28%;
+}

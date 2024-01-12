@@ -1,0 +1,68 @@
+body {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('bgimg3.png');
+}
+
+.choose {
+    overflow: hidden;
+    margin-top: 40px;
+    padding: 16px;
+    margin-bottom: 30px;
+    height: 50%;
+    /* Used in this example to enable scrolling */
+}
+
+.report_style_text {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.report_text0 {
+    margin: 5px;
+    text-align: right;
+    padding: 10%;
+    background-color: rgb(80, 6, 141);
+    border-width: 2px;
+    border-radius: 15%;
+}
+
+.report_text1 {
+    margin: 5px;
+    text-align: right;
+    padding: 10%;
+    background-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-radius: 15%;
+}
+
+.report_text2 {
+    margin: 5px;
+    padding: 15%;
+    background-color: rgb(39, 3, 3);
+    border-width: 2px;
+    border-radius: 15%;
+}
+
+.report_text3 {
+    margin: 5px;
+    padding: 15%;
+    background-color: rgb(97, 49, 21);
+    border-width: 2px;
+    border-radius: 15%;
+}
+
+.w3-animate-left,
+.w3-animate-right,
+.w3-animate-top,
+.w3-animate-bottom {
+    animation-duration: 2s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

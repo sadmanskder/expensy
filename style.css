@@ -1,0 +1,42 @@
+body {
+    scrollbar-width: 0.1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: whitesmoke;
+    padding: -0.5rem;
+    text-shadow: 0cap;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 1ch;
+}
+
+nav img:hover {
+    padding: 12%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0.5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.image {
+    background-color: rgba(87, 61, 61, 0.26);
+    border-radius: 30%;
+    height: 29px;
+    width: 29px;
+}
+
+.w3-animate-opacity {
+    animation-duration: 1s;
+}
